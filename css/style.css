@@ -1,0 +1,986 @@
+/*******column One Tab **********/
+*{
+    margin:0;   
+    padding:0;
+    font-family: Siyam Rupali, sans-serif;
+}
+
+html {height: 100%;}
+.navbox {
+    position: relative;
+    float: left;
+    text-align: left;
+}
+
+ul.nav {
+    list-style: none;
+    display: block;
+    width: 200px;
+    position: relative;
+    background: url(../images/shad2.png) no-repeat;
+    -webkit-background-size: 50% 100%;
+}
+
+li {
+    margin: 5px 0 0 0;
+}
+
+ul.nav li a {
+    -webkit-transition: all 0.3s ease-out;
+    background: url(../images/border.png) no-repeat;
+    background-color: #1a82f7; background-image: url(../images/linear_bg_1.png); background-repeat: repeat-y; /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727)); /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(left, #2F2727, #1a82f7); /* Firefox 3.6+ */ background: -moz-linear-gradient(left, #2F2727, #1a82f7); /* IE 10 */ background: -ms-linear-gradient(left, #2F2727, #1a82f7); /* Opera 11.10+ */ background: -o-linear-gradient(left, #2F2727, #1a82f7);
+    color: #fff;
+    padding: 7px 15px 7px 15px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 4px #888;
+}
+
+ul.nav li a:hover {
+    background: #AEABAB url(../images/border.png) no-repeat;
+    color: #313740;
+    padding: 7px 15px 7px 30px;
+}
+/********End Tab*********/
+
+body
+{
+    background-color:#F5F5F5;
+    padding:0; font-family: Siyam Rupali, sans-serif;
+    margin:0px auto auto auto;
+    color:#424849;
+    font-size:13px;
+    width: 100%;
+}
+h1{
+    font-size:16px;
+    font-weight:bold;
+    color:#0f3753;
+    width: auto;
+    padding:0px 0 5px 0;
+    margin: auto;
+    text-decoration:none;
+}
+h2{
+    font-size:14px;
+    font-weight:bold;
+    color:#0f3753;
+    width: auto;
+    padding:5px 0 5px 0;
+    margin: auto;
+    text-decoration:none;
+}
+h3{
+    font-size:14px;
+    font-weight:bold;
+    color:#0464a1;
+    width: auto;
+    padding:5px 0 5px 10px;
+    margin: auto;
+    text-decoration:none;
+}
+p{
+    font-size:11px;
+    text-align:justify;
+    padding:2px;
+    margin:0px;
+}
+p.proposal_text{
+    width:170px;
+    font-size:11px;
+    text-align:justify;
+    padding:15px 0 0 15px;
+    margin:0px;
+}
+img.img_left{
+    float:left;
+    padding:0px 8px 8px 0px;
+}
+img.img_right{
+    float:right;
+    padding:0px 8px 8px 8px;
+}
+img.img_thumb{
+    float:left;
+    padding:10px;
+}
+img.img_big_pic{
+    padding:4px;
+    border:1px #CCCCCC solid;
+}
+#main_container{
+    width:970px;
+    height:auto;
+    margin:0 auto;
+    padding:0px;
+    background-color: #FCFEFE;
+    /******* Outer Shadow *********/
+    -moz-box-shadow: 0 0 5px 5px #888;
+    box-shadow: 0 0 5px 5px #888;
+}
+#header{
+    width:970px;
+    height:110px;
+    background-image: url(../images/banners/ripd_banner.png);
+    margin:auto;
+}
+#logo{
+    width:147px;
+    height:78px;
+    float:left;
+    padding:20px 0 0 35px;
+}
+.banner_adds{
+    padding-top: 7px;
+    width:620px;
+    height:45px;
+    float:left;
+    font-family: SolaimanLipi;
+    color: #3333CC;
+    font-size: 35px;
+    vertical-align: text-bottom;
+    padding-left: 37px;
+}
+
+.banner_sub_adds{
+    width:750px;
+    height:30px;
+    float:right;
+    font-family: SolaimanLipi;
+    color: #8A8B8C;
+    font-size: 20px;
+}
+
+.login
+{
+    width: 120px;
+    height: 25px;
+    float: right;
+    vertical-align: top; /* fallback */ background-color: #2F2727; background-image: url(images/radial_bg.png); background-position: center center; background-repeat: no-repeat; /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */ background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); /* Safari 5.1+, Chrome 10+ */ background: -webkit-radial-gradient(circle, #1a82f7, #2F2727); /* Firefox 3.6+ */ background: -moz-radial-gradient(circle, #1a82f7, #2F2727); /* IE 10 */ background: -ms-radial-gradient(circle, #1a82f7, #2F2727); /* Opera cannot do radial gradients yet */
+    padding-top: 2px;
+    text-align: center;
+}
+
+.login a
+{
+    text-decoration: none;
+    color: #fff;
+    width: 120px;
+    height: 25px;
+}
+
+/**********Quick Link ***********/
+.glossymenu{
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #9A9A9A;
+    border-bottom-width: 0;
+}
+
+.glossymenu li a{
+    background: white url(../images/glossyback.gif) repeat-x bottom left;
+    font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    width: auto;
+    padding: 3px 0;
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+
+
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+    width: 160px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+    color: white;
+}
+
+.glossymenu li a:hover{
+    background-image: url(../images/glossyback2.gif);
+}
+
+/**********End of Quick Link*********/
+
+
+
+
+/*---------------- menu tab----------------------*/
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/final_drop3.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* style the outer div to give it width */
+.menu {font-size:17px;margin-top: 10px; padding:0px; float:right; width:100%;}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding: 5px 5px 5px 5px;margin:0;list-style-type:none; height:30px; background:#267cb2;}
+
+/* style the sub-level lists */
+.menu ul ul {width: auto;}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {z-index: 1;float:left;height:28px;line-height:28px;margin: 0px;}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em; border-bottom:1px #2384BF solid;}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:11px;text-decoration:none;color:#fff;background:#267cb2;padding:0 10px 0 8px;}
+.menu a.current{background:background-color: #1a82f7; background: url(images/linear_bg_2.png); background-repeat: repeat-x; /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727)); /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #2F2727, #1a82f7); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #2F2727, #1a82f7); /* IE 10 */ background: -ms-linear-gradient(top, #2F2727, #1a82f7); /* Opera 11.10+ */ background: -o-linear-gradient(top, #2F2727, #1a82f7);}
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#267cb2; color:#fff;width:12em;height:100%;line-height:1em; padding:0.5em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; w\idth:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; left:0; top:0; font-size:1em; z-index:-1;}
+.menu ul ul table {lef\t:-1px;}
+.menu ul ul table ul.left {margin-lef\t:2px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#3da1e0;}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#3da1e0;}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:#3da1e0;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:#3da1e0;}
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#fff;background:#3da1e0;}
+.menu :hover > a {color:#fff;background:background-color: #1a82f7; background: url(images/linear_bg_2.png); background-repeat: repeat-x; /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727)); /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #2F2727, #1a82f7); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #2F2727, #1a82f7); /* IE 10 */ background: -ms-linear-gradient(top, #2F2727, #1a82f7); /* Opera 11.10+ */ background: -o-linear-gradient(top, #2F2727, #1a82f7);}
+/* second */
+.menu ul ul a:hover{color:#fff;background:#3da1e0;}
+.menu ul ul :hover > a {color:#fff;background:#3da1e0;}
+/* third */
+.menu ul ul ul a:hover {background:#3da1e0;}
+.menu ul ul ul :hover > a {background:#3da1e0;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:#eee;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:28px;left:0;width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;top:0;width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; height:auto; padding-bottom:3em; background:transparent url(images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+/*------------------------------main content-----------------------*/
+#main_content{
+    width:970px;
+    margin:auto;
+    clear:both;
+    background-color:#FCFEFE;
+}
+/*------------------------middle_content-----------*/
+.column1{
+    width:257px;
+    float:left;
+    margin:0px;
+    padding:10px 10px 10px 5px;
+}
+.column2{
+    width:340px;
+    float:left;
+    margin:0px;
+    padding:10px 5px 10px 5px;
+}
+.column6{
+    width:840px;
+    float:left;
+    margin:0px;
+    padding:10px 5px 10px 5px;
+}
+
+.columnSld{
+    width:970px;
+    float:left;
+    margin:0px;
+    padding:5px 0px 10px 0px;
+}
+
+.columnInnerPages{
+    width:80%;
+    float:left;
+    margin:0px;
+    padding:5px 5px 10px 5px;
+}
+
+.columnSubmodule{
+    width:71%;
+    float:left;
+    margin:0px;
+    padding:5px 0px 10px 0px;
+}
+.column3{
+    width:33%;
+    float:left;
+    margin:0px;
+    padding:10px 10px 10px 5px;
+}
+.product_info_column{
+    width:32%;
+    float:left;
+    margin: 1px 6px 1px 6px;
+}
+.column4{
+    width:690px;
+    float:left;
+    margin:0px;
+    padding:10px 0px 10px 5px;
+}
+.left_box{
+    width:257px;
+    height:auto;
+    float:left;
+    padding-bottom:10px;
+}
+.login_left_box{
+    width:257px;
+    height:auto;
+    float:left;
+    padding-bottom:10px;
+    background:url(../images/center_box_bg.gif) repeat center;
+}
+.top_left_box{
+    width:257px;
+    height:10px;
+    float:left;
+    background:url(../images/top_box_bg.gif) no-repeat center;
+}
+.center_left_box{
+    width:257px;
+    height: auto;
+    float:left;
+    background:url(../images/center_box_bg.gif) repeat-y;
+}
+.bottom_left_box{
+    width:257px;
+    height:10px;
+    float:left;
+    background:url(../images/bottom_box_bg.gif) no-repeat center;
+}
+.box_title{
+    width:257px;
+    text-align:center;
+    font-size:18px;
+    color:#615357;
+    padding:5px 0 5px 0;
+}
+.box_title span{
+    font-weight:bold;
+    color:#d8325d;
+}
+
+.main_text_box{
+    padding:5px;
+}
+.proposal{
+    width:287px;
+    height:85px;
+    background:url(../images/proposal_box.gif) no-repeat center;
+    background-position:0px 0px;
+    margin-left:15px;
+    margin-top:15px;
+}
+.title{
+    background-color:#385870;
+    text-align:left;
+    width:670px;
+    padding:5px 5px 5px 20px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+.small_title{
+    background-color: #2F2727; background-image: url(images/radial_bg.png); background-position: center center; background-repeat: no-repeat; /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */ background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); /* Safari 5.1+, Chrome 10+ */ background: -webkit-radial-gradient(circle, #1a82f7, #2F2727); /* Firefox 3.6+ */ background: -moz-radial-gradient(circle, #1a82f7, #2F2727); /* IE 10 */ background: -ms-radial-gradient(circle, #1a82f7, #2F2727); /* Opera cannot do radial gradients yet */
+    text-align:center;
+    padding: 5px 5px 5px 5px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+.page_header_div{
+    width: 964px;
+    margin: 3px 0px 0px 3px;
+    padding: 5px 0px 10px 0px;
+}
+.page_header_title{
+    background-color: #2F2727; background-image: url(images/radial_bg.png); background-position: center center; background-repeat: no-repeat; /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */ background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); /* Safari 5.1+, Chrome 10+ */ background: -webkit-radial-gradient(circle, #1a82f7, #2F2727); /* Firefox 3.6+ */ background: -moz-radial-gradient(circle, #1a82f7, #2F2727); /* IE 10 */ background: -ms-radial-gradient(circle, #1a82f7, #2F2727); /* Opera cannot do radial gradients yet */
+    text-align:center;
+    height: 25px; 
+    vertical-align: bottom; 
+    font-size: 16px;
+    padding:5px 5px 5px 5px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.title2{
+    background-color:#eef1f3;
+    text-align:left;
+    width:300px;
+    padding:5px 5px 5px 15px;
+    color:#d8325d;
+    font-weight:bold;
+    margin-left:5px;
+}
+/**********Calendar************/
+.cal_table {
+    width:90%; 
+    table-layout:fixed;
+    border: 1px solid #0464a1;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cal_table td{
+    border: 1px solid #969797;
+    font-size: 20px;
+    width: 10%;
+    height: 20px;
+}
+
+/***********End of calendar************/
+
+.tooltip_calender {
+    border-bottom: 1px dotted #000000; 
+    color: #000000; 
+    outline: none;
+    cursor: help; 
+    text-decoration: none;
+    position: relative;
+}
+
+/*------------info table----------------------*/
+
+#info_table{
+    margin-top: 10px;
+    text-align: center;
+}
+#master_chart{
+    text-align: center;
+    width:100%;
+    padding: 5px;
+    vertical-align: top;
+    margin-left: 2px;
+}
+#master_chart_category{
+    text-align: center;
+    width: 100%;
+    border: 1px solid #267CB2;
+    padding: 5px;
+    vertical-align: top;
+}
+#master-chart_column{
+    width: 24%;
+    vertical-align: top;
+}
+#table_row_odd{
+    background-color: #F3F5F6;
+    vertical-align: top;
+}
+
+#table_row_even{
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+
+
+
+
+/*-------------------details list----------------*/
+.details_list{
+    padding:10px;
+}
+.details_list ul{
+    text-decoration:none;
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+.details_list ul li{
+    z-index: 5000;
+    padding:5px 5px 5px 25px;
+    background:url(../images/bullet.gif) no-repeat left;
+    color:#333333;
+}
+.details_list ul li span{
+    color:#0464a1;
+}
+.button{
+    width:139px;
+    height:30px;
+    background:url(images/blank_button.gif) no-repeat center;
+    text-align:center;
+    line-height:30px;
+    font-weight:bold;
+    font-size:13px;
+}
+.button a{
+    text-decoration:none;
+    color:#d8325d;
+}
+/*---------------offer_box----------------------*/
+.offer_box{
+    width:100%;
+    height:auto;
+    background-color:#f3f5f6;
+    padding:0px;
+    margin:7px 0px 7px 0px;
+}
+.offer_box_wide{
+    width:310px;
+    height:106px;
+    float:left;
+    background-color:#f3f5f6;
+    padding:10px;
+    margin:7px;
+}
+.offer_box_wide_style1{
+    width:670px;
+    height:106px;
+    float:left;
+    background-color:#f3f5f6;
+    padding:7px;
+    margin:5px;
+}
+.offer_info{
+    padding:5px;
+}
+.offer_info span{
+    font-weight:bold;
+    color:#d8325d;
+}
+p.offer{
+    text-align:justify;
+    font-size:11px;
+}
+.more{
+    float:right;
+    padding:3px;
+}
+.more a{
+    color:#d8325d;
+}
+.more a:hover{
+    text-decoration:none;
+}
+.big_pic{
+    width:340px;
+    text-align:center;
+    padding:5px 0 5px 0;
+}
+.pictures_thumbs{
+    width:300px;
+    padding-left:40px;
+}
+/*------------------table style---------------*/
+td{
+    text-align:center;
+    padding:5px;
+}
+th{
+    background-color: #06ACE5;
+    padding:5px;
+    color:#000707;
+    text-align: center;
+}
+tr.color1{
+    background-color:#F3F5F6;
+}
+
+
+/*-----------------form style--------------------*/
+.form{
+    width:257px;
+    text-align:center;
+    color:#615357;
+    padding:5px 0 5px 0;
+}
+.form_row{
+    float:left;
+    width:257px;
+    text-align:center;
+    padding:3px 0 3px 0;
+}
+
+.form_row_register{
+    width:257px;
+    text-align:right;
+    font-size:12px;
+    padding:10px 10 10px 10;
+}
+
+.form_row_register a{
+    color: red;
+    color:#267CB2;
+}
+
+label.left{
+    float:left;
+    width:70px;
+    padding-top:3px;
+    text-align:right;
+}
+label.left_long{
+    float:left;
+    width:90px;
+    padding-top:3px;
+    text-align:right;
+}
+input.form_input{
+    border: 1px solid #C8D2D9;
+    background-color:#FFFFFF;
+    margin:0px;
+    width:150px;
+    float:left;
+    margin-left:10px;
+}
+.contact_information{
+    font-size:11px;
+    color:#385870;
+    text-align:left;
+    padding-left:20px;
+}
+.contact_information span{
+    color:#d8325d;
+}
+
+.visitor_information{
+    font-size:20px;
+    color:#385870;
+    text-align:center;
+    padding-left:0px;
+}
+.visitor_information span{
+    text-align: right;
+    color:#d8325d;
+}
+
+.flag_information{
+    font-size:11px;
+    color:#385870;
+    text-align:left;
+}
+.flag_information span{
+    color:#d8325d;
+}
+/* -------------For Thana, District, Division Search----------------*/
+
+.box{
+    height: 22px;
+    width: 160px;
+    border: 1px gray inset;
+    padding-left: 5px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.box1{
+    height: 20px;
+    width: 52px;
+    border: 1px gray inset;
+    padding-left: 5px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+} 
+.box2{
+    height: 25px;
+    width: 135px;
+    border: 1px gray inset;
+    padding-left: 5px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+} 
+.box4{
+    height: 18px;
+    width: 112px;
+    border:1px gray inset;
+    padding-left: 5px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+} 
+.box5{
+    height: 20px;
+    width: 72px;
+    border: 1px gray inset;
+    padding-left: 5px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+} 
+
+/*---------------------pagination-----------------------------*/
+
+div.pagination {
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    float:left;
+    font-size:10px;
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #ddd;
+
+    text-decoration: none; 
+    color: #d8325d;
+}
+div.pagination a:hover, div.pagination a:active {
+    border:1px solid #ddd;
+    color: #fff;
+    background-color: #d8325d;
+}
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    background-color: #d8325d;
+    color: #FFF;
+}
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #ddd;
+    color: #ccc;
+}
+/*-----------------------contact------------------------*/
+.contact_tab{
+    width:670px;
+    height: auto;
+    float:left;
+    background-color:#f3f5f6;
+    padding:8px;
+    margin:5px 5px 5px 0px;
+}
+.form_contact{
+    width:357px;
+    float:left;
+    text-align:center;
+    color:#615357;
+    padding:5px 0 5px 0;
+}
+.location_contact{
+    width:250px;
+    float:left;
+    padding:15px;
+}
+.form_row_contact{
+    float:left;
+    width:357px;
+    text-align:center;
+    padding:3px 0 3px 0;
+}
+input.form_input_contact{
+    border: 1px solid #C8D2D9;
+    background-color:#FFFFFF;
+    margin:0px;
+    width:250px;
+    float:left;
+    margin-left:10px;
+}
+select.form_select{
+    border: 1px solid #C8D2D9;
+    background-color:#FFFFFF;
+    margin:0px;
+    width:250px;
+    float:left;
+    margin-left:10px;
+    height:20px;
+}
+textarea{
+    border: 1px solid #C8D2D9;
+    background-color:#FFFFFF;
+    margin:0px;
+    width:250px;
+    height:80px;
+    float:left;
+    margin-left:10px;
+}
+
+
+#screenshot{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:5px;
+    display:none;
+    color:#fff;
+}
+
+/*-------------------footer------------------------*/
+#footer{    
+    width:970px;
+    height:41px;
+    clear:both;
+    font-size:11px;
+    background-color:#f2efef;
+    border-top:1px #eeabbd dashed;
+}
+
+ul.footer_menu {
+    list-style:none; float:left; display:block; width:750px;
+    margin-left:200px; padding:9px 20px 0 0px;
+}
+
+ul.footer_menu li {
+    display:inline; font-size:11px;}
+
+a.nav_footer:link, a.nav_footer:visited {
+    display:block; float:left; padding:5px 6px 5px 10px; margin:0; 
+    text-decoration:none; color:#2F2626;
+}
+
+a.nav_footer:hover {
+    display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+    text-decoration:underline; color:#2F2626;
+}
+
+a.nav_footer:active {
+    display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+    text-decoration:none;  color:#2F2626;
+}
+
+#copyright{
+    float:left;
+    padding:0px;
+    width: 970px;
+}
+#footer_content{
+    float:left;
+    padding:0px;
+    margin-left:150px;
+    width: 970px;
+}
+
+#fieldset_style{
+    width: 70%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+#award_fieldset_style{
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+.presen_pro_training_travel_table{
+    float: left; 
+    width: 100%; 
+    height: 500px; 
+    padding-bottom: 10px;
+    padding-top: 1px; 
+    margin-left: 0px;
+}
+/* ********************for dropdown tree************************* */
+
+#steps {
+
+    background-color:cadetblue;
+    color: black;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid darkcyan;
+}
+#steps:hover, active
+{
+    background-color:darkcyan;
+    color: wheat;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid mediumturquoise;
+}
+
+.treeButton
+{
+    width: 100%;
+}
+
+.treeButton ul { margin:0 auto; list-style-type:none;width: 100%}
+.treeButton ul li { float:left; position:relative;}
+.treeButton ul li a 
+{
+    width: 300px;height: 30px;
+    display:block;background-color:cadetblue;
+    text-decoration:none;
+    color: black;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid darkcyan;
+}
+.treeButton ul li a:hover, a:active{   background-color:darkcyan;
+                                       color: wheat;
+                                       -moz-border-radius: 3px;
+                                       border-radius: 3px;
+                                       border: 1px solid mediumturquoise;}
+
+.treeButton ul li ul { position:absolute; left:-999999px;}
+.treeButton ul li:hover ul { left:0px;}
+.treeButton ul li ul li { float:none;}
+.treeButton ul li ul li a { width: 300px;height: 30px;
+                            display:block;background-color:cadetblue;
+                            text-decoration:none;
+                            color: black;
+                            -moz-border-radius: 3px;
+                            border-radius: 3px;
+                            border: 1px solid darkcyan;}
+.treeButton ul li ul li a:hover { background-color:darkcyan;
+                                  color: wheat;
+                                  -moz-border-radius: 3px;
+                                  border-radius: 3px;
+                                  border: 1px solid mediumturquoise;}
+
+/* ********************index page javascript marquee************************* */
+#marquee_replacement1{
+ width:320px;
+ height:220px;
+ overflow:hidden;
+}
+#marquee_replacement1 p.spacer1{
+ height:220px;
+}
+
+#marquee_replacement2{
+ width:320px;
+ height:530px;
+ overflow:hidden;
+}
+#marquee_replacement2 p.spacer2{
+ height:530px;
+}

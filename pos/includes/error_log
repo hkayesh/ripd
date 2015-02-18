@@ -1,0 +1,2 @@
+[17-Apr-2013 08:41:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home5/comfosys/public_html/test/ripd/includes/getDistrict.php on line 17
+[17-Apr-2013 08:41:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home5/comfosys/public_html/test/ripd/includes/getDistrict.php on line 17

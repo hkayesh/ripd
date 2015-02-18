@@ -1,0 +1,26 @@
+.wraper{
+margin:0 auto;
+width:80%;
+height:auto;
+}
+.top{
+height:100px;
+}
+.topleft{
+float:left;
+width:20%;
+height:30px;
+}
+.topright{
+float:right;
+width:80%;
+height:auto;
+}
+.bottom{
+padding:10px;
+height:103px;
+}
+.center{
+height:auto;
+}
+

@@ -1,0 +1,12 @@
+@media print {
+#header{display: none;}
+th {display: none;}
+.formstyle{border: 0px solid grey;background-image: none;background-color:white;}
+#noprint{display: none;}
+#footer{display: none;}
+#front{background-image: url(../images/watermark.png);background-repeat: no-repeat;background-size:100% 100%;}
+#main_container { box-shadow: none ;}
+body {background-color: white;}
+.page-break{ display: block; page-break-before: always;-webkit-region-page-break-before: always;}
+* {margin: 0;}
+}
